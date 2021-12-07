@@ -11,6 +11,12 @@
 		E98B8118275FFC210053A629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98B8117275FFC210053A629 /* Assets.xcassets */; };
 		E98B811B275FFC210053A629 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98B811A275FFC210053A629 /* Preview Assets.xcassets */; };
 		E98B8128276000290053A629 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B8127276000290053A629 /* ContentView.swift */; };
+		E98B8136276003AF0053A629 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B8135276003AF0053A629 /* MainTabView.swift */; };
+		E98B81382760040B0053A629 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B81372760040B0053A629 /* FeedView.swift */; };
+		E98B813A276004430053A629 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B8139276004430053A629 /* SearchView.swift */; };
+		E98B813C276004540053A629 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B813B276004540053A629 /* NotificationsView.swift */; };
+		E98B813E276004630053A629 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B813D276004630053A629 /* ProfileView.swift */; };
+		E98B81402760047E0053A629 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B813F2760047E0053A629 /* UploadPostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		E98B8117275FFC210053A629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E98B811A275FFC210053A629 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E98B8127276000290053A629 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E98B8135276003AF0053A629 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E98B81372760040B0053A629 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		E98B8139276004430053A629 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		E98B813B276004540053A629 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		E98B813D276004630053A629 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E98B813F2760047E0053A629 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UploadPostView.swift; path = InstagramSwiftUI/Views/Profile/UploadPostView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				E98B8127276000290053A629 /* ContentView.swift */,
+				E98B8135276003AF0053A629 /* MainTabView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -130,6 +143,7 @@
 		E98B8129276000760053A629 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				E98B81372760040B0053A629 /* FeedView.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -137,6 +151,7 @@
 		E98B812A276000790053A629 /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
+				E98B813F2760047E0053A629 /* UploadPostView.swift */,
 			);
 			name = UploadPost;
 			path = "New Group/UploadPost";
@@ -145,6 +160,7 @@
 		E98B812B276000930053A629 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				E98B813D276004630053A629 /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -159,6 +175,7 @@
 		E98B812D276000B60053A629 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				E98B8139276004430053A629 /* SearchView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -166,6 +183,7 @@
 		E98B812E276000BF0053A629 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				E98B813B276004540053A629 /* NotificationsView.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -285,8 +303,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98B813A276004430053A629 /* SearchView.swift in Sources */,
+				E98B81382760040B0053A629 /* FeedView.swift in Sources */,
 				E98B8114275FFC1F0053A629 /* InstagramSwiftUIApp.swift in Sources */,
 				E98B8128276000290053A629 /* ContentView.swift in Sources */,
+				E98B8136276003AF0053A629 /* MainTabView.swift in Sources */,
+				E98B81402760047E0053A629 /* UploadPostView.swift in Sources */,
+				E98B813E276004630053A629 /* ProfileView.swift in Sources */,
+				E98B813C276004540053A629 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
