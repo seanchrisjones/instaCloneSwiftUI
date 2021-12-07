@@ -24,7 +24,7 @@ struct FeedCell: View {
                 Text("goku")
                     .font(.system(size: 14, weight: .semibold))
                 
-            }
+            }.padding([.leading,.bottom],8)
             
             //Post Image
             Image("Gohan")
@@ -35,7 +35,7 @@ struct FeedCell: View {
                 
             
             //action Buttons
-            HStack(spacing: 8){
+            HStack(spacing: 16){
                 Button(action: {}, label:{
                     Image(systemName: "heart")
                         .frame(width: 28, height: 28)
@@ -58,17 +58,22 @@ struct FeedCell: View {
                 })
                 
             }.foregroundColor(.black)
+                .padding(.leading,4)
             
             // caption
-            
+            Text("3 likes")
+                .font(.system(size: 14, weight: .semibold))
+                .padding(.leading, 8)
+                .padding(.bottom, 4)
             HStack{
-                Text("Goku").font(.system(size: 14, weight: .semibold)) + Text( "This is my son Gohan").font(.system(size: 15))
-            }
+                Text("Goku").font(.system(size: 14, weight: .semibold)) + Text( " This is my son Gohan").font(.system(size: 15))
+            }.padding(.horizontal,8)
             
             Text("2d")
                 .font(.system(size: 14))
                 .foregroundColor(.gray)
-                .padding(.top)
+                .padding(.leading, 8)
+                .padding(.top, 2)
         }
     }
 }
