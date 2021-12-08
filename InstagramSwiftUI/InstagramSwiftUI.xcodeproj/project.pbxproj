@@ -19,6 +19,7 @@
 		E98B81402760047E0053A629 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B813F2760047E0053A629 /* UploadPostView.swift */; };
 		E98B8142276008860053A629 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B8141276008860053A629 /* FeedCell.swift */; };
 		E98B81442761340D0053A629 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B81432761340D0053A629 /* SearchBar.swift */; };
+		E98B81462761396A0053A629 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B81452761396A0053A629 /* PostGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E98B813F2760047E0053A629 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UploadPostView.swift; path = InstagramSwiftUI/Views/Profile/UploadPostView.swift; sourceTree = SOURCE_ROOT; };
 		E98B8141276008860053A629 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		E98B81432761340D0053A629 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		E98B81452761396A0053A629 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 		E98B8130276000E90053A629 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				E98B81452761396A0053A629 /* PostGridView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			files = (
 				E98B813A276004430053A629 /* SearchView.swift in Sources */,
 				E98B81382760040B0053A629 /* FeedView.swift in Sources */,
+				E98B81462761396A0053A629 /* PostGridView.swift in Sources */,
 				E98B8114275FFC1F0053A629 /* InstagramSwiftUIApp.swift in Sources */,
 				E98B8128276000290053A629 /* ContentView.swift in Sources */,
 				E98B8136276003AF0053A629 /* MainTabView.swift in Sources */,
