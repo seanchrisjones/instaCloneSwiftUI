@@ -9,8 +9,24 @@ import SwiftUI
 
 struct UserCell: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+        HStack{
+            Image("Goku")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 48, height: 48)
+                .clipped()
+                .cornerRadius(24)
+            //vstack
+            VStack(alignment:.leading){
+                Text("Goku")
+                    .font(.system(size: 14, weight: .semibold))
+                Text("Kakarot")
+                    .font(.system(size: 14))
+            }
+            Spacer()
+
+        }
+                }
 }
 
 struct UserCell_Previews: PreviewProvider {
