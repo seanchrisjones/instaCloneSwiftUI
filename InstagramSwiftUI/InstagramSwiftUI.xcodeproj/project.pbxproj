@@ -24,6 +24,7 @@
 		E98B814A27613EE30053A629 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B814927613EE30053A629 /* UserListView.swift */; };
 		E98B814C2761458F0053A629 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B814B2761458F0053A629 /* Extensions.swift */; };
 		E98B814E276154820053A629 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B814D276154820053A629 /* NotificationCell.swift */; };
+		E98B8150276158740053A629 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B814F276158740053A629 /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		E98B814927613EE30053A629 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		E98B814B2761458F0053A629 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E98B814D276154820053A629 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		E98B814F276158740053A629 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				E98B8130276000E90053A629 /* Items */,
 				E98B812F276000D70053A629 /* Authentication */,
 				E98B812E276000BF0053A629 /* Notifications */,
+				E98B813B276004540053A629 /* NotificationsView.swift */,
 				E98B812D276000B60053A629 /* Search */,
 				E98B812C276000A70053A629 /* Comments */,
 				E98B812B276000930053A629 /* Profile */,
@@ -177,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				E98B813D276004630053A629 /* ProfileView.swift */,
+				E98B814F276158740053A629 /* ProfileHeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -200,7 +204,6 @@
 		E98B812E276000BF0053A629 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
-				E98B813B276004540053A629 /* NotificationsView.swift */,
 				E98B814D276154820053A629 /* NotificationCell.swift */,
 			);
 			path = Notifications;
@@ -331,6 +334,7 @@
 				E98B8128276000290053A629 /* ContentView.swift in Sources */,
 				E98B8136276003AF0053A629 /* MainTabView.swift in Sources */,
 				E98B81402760047E0053A629 /* UploadPostView.swift in Sources */,
+				E98B8150276158740053A629 /* ProfileHeaderView.swift in Sources */,
 				E98B813E276004630053A629 /* ProfileView.swift in Sources */,
 				E98B814827613ED20053A629 /* UserCell.swift in Sources */,
 				E98B81442761340D0053A629 /* SearchBar.swift in Sources */,
