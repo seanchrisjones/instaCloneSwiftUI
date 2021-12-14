@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E97E3EBB2769163700C1AC9A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E3EBA2769163700C1AC9A /* ImagePicker.swift */; };
 		E98B8114275FFC1F0053A629 /* InstagramSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B8113275FFC1F0053A629 /* InstagramSwiftUIApp.swift */; };
 		E98B8118275FFC210053A629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98B8117275FFC210053A629 /* Assets.xcassets */; };
 		E98B811B275FFC210053A629 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98B811A275FFC210053A629 /* Preview Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E97E3EBA2769163700C1AC9A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		E98B8110275FFC1F0053A629 /* InstagramSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98B8113275FFC1F0053A629 /* InstagramSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramSwiftUIApp.swift; sourceTree = "<group>"; };
 		E98B8117275FFC210053A629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				E98B814B2761458F0053A629 /* Extensions.swift */,
+				E97E3EBA2769163700C1AC9A /* ImagePicker.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				E98B8114275FFC1F0053A629 /* InstagramSwiftUIApp.swift in Sources */,
 				E98B8128276000290053A629 /* ContentView.swift in Sources */,
 				E98B8136276003AF0053A629 /* MainTabView.swift in Sources */,
+				E97E3EBB2769163700C1AC9A /* ImagePicker.swift in Sources */,
 				E98B81402760047E0053A629 /* UploadPostView.swift in Sources */,
 				E98B8150276158740053A629 /* ProfileHeaderView.swift in Sources */,
 				E98B813E276004630053A629 /* ProfileView.swift in Sources */,
