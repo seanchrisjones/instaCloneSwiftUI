@@ -25,6 +25,8 @@
 		E98B814C2761458F0053A629 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B814B2761458F0053A629 /* Extensions.swift */; };
 		E98B814E276154820053A629 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B814D276154820053A629 /* NotificationCell.swift */; };
 		E98B8150276158740053A629 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B814F276158740053A629 /* ProfileHeaderView.swift */; };
+		E9F112992768F439001A146A /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F112982768F439001A146A /* UserStatView.swift */; };
+		E9F1129B2768F7B2001A146A /* ProfileActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1129A2768F7B2001A146A /* ProfileActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		E98B814B2761458F0053A629 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E98B814D276154820053A629 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		E98B814F276158740053A629 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		E9F112982768F439001A146A /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		E9F1129A2768F7B2001A146A /* ProfileActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,8 @@
 			children = (
 				E98B813D276004630053A629 /* ProfileView.swift */,
 				E98B814F276158740053A629 /* ProfileHeaderView.swift */,
+				E9F112982768F439001A146A /* UserStatView.swift */,
+				E9F1129A2768F7B2001A146A /* ProfileActionButton.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -330,12 +336,14 @@
 				E98B813A276004430053A629 /* SearchView.swift in Sources */,
 				E98B81382760040B0053A629 /* FeedView.swift in Sources */,
 				E98B81462761396A0053A629 /* PostGridView.swift in Sources */,
+				E9F1129B2768F7B2001A146A /* ProfileActionButton.swift in Sources */,
 				E98B8114275FFC1F0053A629 /* InstagramSwiftUIApp.swift in Sources */,
 				E98B8128276000290053A629 /* ContentView.swift in Sources */,
 				E98B8136276003AF0053A629 /* MainTabView.swift in Sources */,
 				E98B81402760047E0053A629 /* UploadPostView.swift in Sources */,
 				E98B8150276158740053A629 /* ProfileHeaderView.swift in Sources */,
 				E98B813E276004630053A629 /* ProfileView.swift in Sources */,
+				E9F112992768F439001A146A /* UserStatView.swift in Sources */,
 				E98B814827613ED20053A629 /* UserCell.swift in Sources */,
 				E98B81442761340D0053A629 /* SearchBar.swift in Sources */,
 				E98B813C276004540053A629 /* NotificationsView.swift in Sources */,
