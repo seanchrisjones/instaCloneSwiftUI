@@ -18,6 +18,7 @@ struct LoginView: View {
                     .ignoresSafeArea()
                 VStack{
                     Image("instagramlogo")
+                        .renderingMode(.template)// allows to change the foreground color
                         .resizable()
                         .scaledToFill()
                         .frame(width: 220, height: 100)
@@ -70,20 +71,19 @@ struct LoginView: View {
                     
                     // go to sign up
                     Spacer()
-                    
-                    Button(action: {}, label: {
+                    NavigationLink(destination: RegistrationView()
+                                    .navigationBarHidden(true), label: {
                         HStack {
                             Text("Don't have an account?")
                                 .font(.system(size: 14))
                             Text("Sign Up")
                                 .font(.system(size: 14, weight: .semibold))
                         }.foregroundColor(.white)
-                    }).padding(.bottom, 32)
-                        
-                   
-                    
+                    }).padding(.bottom, 16)
+        
                 }
             }
+            .padding(.top, -44)
         }
     }
 }

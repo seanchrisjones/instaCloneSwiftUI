@@ -15,7 +15,7 @@ struct UploadPostView: View {
     var body: some View {
         VStack{
             if postImage == nil {
-                Button(action: {imagePickerPresented.toggle() } , label: { Image(systemName: "plus")
+                Button(action: {imagePickerPresented.toggle() } , label: { Image(systemName: "plus.circle")
                         .resizable()
                         .renderingMode(.template) // allows to change the foreground color
                         .scaledToFill()
