@@ -11,8 +11,10 @@ struct RegistrationView: View {
     @State  private var email = ""
     @State  private var userName = ""
     @State  private var fullName = ""
-    
+    @State private var selectedImage: UIImage?
+    @State var image: Image?
     @State private var password = ""
+    @State var imagePickerPresented = false
     @Environment(\.presentationMode) var mode
     /*
      SwiftUI uses environment vairables to see if something has been presented or pushed onto the navigation stack etc.
@@ -24,15 +26,27 @@ struct RegistrationView: View {
             ZStack {
                 LinearGradient(gradient: Gradient(colors: [.purple, .blue]), startPoint: .top, endPoint: .bottom)
                     .ignoresSafeArea()
-                VStack{
-                    Button(action: {}, label: {
-                        Image(systemName:"plus.circle")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 140, height: 140)
-                            .foregroundColor(.white)
-                    }).padding()
-                    
+                VStack {
+                    ZStack {
+                        if let image = image {
+                            image
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 140, height: 140)
+                                .clipShape(Circle())
+                                .padding(.top, 44)
+                            
+                        } else {
+                            Button(action: {imagePickerPresented.toggle()}, label: {
+                                Image(systemName:"plus.circle")
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(width: 140, height: 140)
+                                    .foregroundColor(.white)
+                            }).sheet(isPresented: $imagePickerPresented, onDismiss: loadImage, content: {ImagePicker(image: $selectedImage)
+                            })
+                        }
+                    }
                     VStack(spacing: 20){
                         //email field
                         CustomTextField(text: $email, placeholder: Text("Email"), imageName: "envelope")
@@ -66,7 +80,6 @@ struct RegistrationView: View {
                         
                         
                     }
-                    
                     //sign in
                     Button(action: {}, label: {
                         Text("Sign Up")
@@ -93,15 +106,24 @@ struct RegistrationView: View {
                             Text("Sign In")
                                 .font(.system(size: 14, weight: .semibold))
                         }.foregroundColor(.white)
-                        
                     })
-        
-                }
+                }.padding()
             }
-        
         }
     }
+    
 }
+
+
+
+extension RegistrationView {
+    func loadImage() {
+        guard let selectedImage = selectedImage else {return}
+        image = Image(uiImage: selectedImage)
+    }
+    
+}
+
 
 struct RegistrationView_Previews: PreviewProvider {
     static var previews: some View {
