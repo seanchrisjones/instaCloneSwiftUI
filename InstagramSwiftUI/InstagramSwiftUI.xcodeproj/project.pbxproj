@@ -11,6 +11,8 @@
 		E97E3EBD276A341E00C1AC9A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E3EBC276A341D00C1AC9A /* LoginView.swift */; };
 		E97E3EBF276A343700C1AC9A /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E3EBE276A343700C1AC9A /* RegistrationView.swift */; };
 		E97E3EC1276A345100C1AC9A /* ReserPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E3EC0276A345100C1AC9A /* ReserPasswordView.swift */; };
+		E97E3EC3276A387900C1AC9A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E3EC2276A387900C1AC9A /* CustomTextField.swift */; };
+		E97E3EC5276A388B00C1AC9A /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97E3EC4276A388B00C1AC9A /* CustomSecureField.swift */; };
 		E98B8114275FFC1F0053A629 /* InstagramSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B8113275FFC1F0053A629 /* InstagramSwiftUIApp.swift */; };
 		E98B8118275FFC210053A629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98B8117275FFC210053A629 /* Assets.xcassets */; };
 		E98B811B275FFC210053A629 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98B811A275FFC210053A629 /* Preview Assets.xcassets */; };
@@ -38,6 +40,8 @@
 		E97E3EBC276A341D00C1AC9A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E97E3EBE276A343700C1AC9A /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		E97E3EC0276A345100C1AC9A /* ReserPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserPasswordView.swift; sourceTree = "<group>"; };
+		E97E3EC2276A387900C1AC9A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E97E3EC4276A388B00C1AC9A /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		E98B8110275FFC1F0053A629 /* InstagramSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98B8113275FFC1F0053A629 /* InstagramSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramSwiftUIApp.swift; sourceTree = "<group>"; };
 		E98B8117275FFC210053A629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -157,6 +161,8 @@
 			children = (
 				E98B814B2761458F0053A629 /* Extensions.swift */,
 				E97E3EBA2769163700C1AC9A /* ImagePicker.swift */,
+				E97E3EC2276A387900C1AC9A /* CustomTextField.swift */,
+				E97E3EC4276A388B00C1AC9A /* CustomSecureField.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -349,6 +355,7 @@
 				E98B81382760040B0053A629 /* FeedView.swift in Sources */,
 				E98B81462761396A0053A629 /* PostGridView.swift in Sources */,
 				E97E3EBF276A343700C1AC9A /* RegistrationView.swift in Sources */,
+				E97E3EC3276A387900C1AC9A /* CustomTextField.swift in Sources */,
 				E9F1129B2768F7B2001A146A /* ProfileActionButton.swift in Sources */,
 				E98B8114275FFC1F0053A629 /* InstagramSwiftUIApp.swift in Sources */,
 				E98B8128276000290053A629 /* ContentView.swift in Sources */,
@@ -360,6 +367,7 @@
 				E9F112992768F439001A146A /* UserStatView.swift in Sources */,
 				E98B814827613ED20053A629 /* UserCell.swift in Sources */,
 				E98B81442761340D0053A629 /* SearchBar.swift in Sources */,
+				E97E3EC5276A388B00C1AC9A /* CustomSecureField.swift in Sources */,
 				E98B813C276004540053A629 /* NotificationsView.swift in Sources */,
 				E98B8142276008860053A629 /* FeedCell.swift in Sources */,
 				E98B814A27613EE30053A629 /* UserListView.swift in Sources */,
