@@ -9,7 +9,33 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            // for a navigation link to work it must be embedded in a navigation view
+            ZStack {
+                LinearGradient(gradient: Gradient(colors: [.purple, .blue]), startPoint: .top, endPoint: .bottom)
+                    .ignoresSafeArea()
+                VStack{
+                    Image("instagramlogo")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 220, height: 100)
+                        .foregroundColor(.white)
+                    
+                    //email field
+                    
+                    //password field
+                    
+                    //forgot password
+                    
+                    //sign in
+                    
+                    // go to sign up
+                        
+                    Spacer()
+                    
+                }
+            }
+        }
     }
 }
 
